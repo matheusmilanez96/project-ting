@@ -1,6 +1,7 @@
 from ting_file_management.abstract_queue import AbstractQueue
 
 
+# iniciando o projeto
 class Queue(AbstractQueue):
     def __init__(self):
         """Inicialize sua estrutura aqui"""
