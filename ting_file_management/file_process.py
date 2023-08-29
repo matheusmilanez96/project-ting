@@ -16,7 +16,7 @@ def process(path_file, instance):
     }
 
     instance.enqueue(output)
-    sys.stdout.write(f"{output}")
+    sys.stdout.write(f"{output}")  # test
 
 
 def remove(instance):
